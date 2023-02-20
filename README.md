@@ -9,7 +9,7 @@ Dataset Description- In this project I applied various classification models suc
 #
 Variable
 
-Description
+Description:-
 
 Loan_ID - Unique Loan ID
 
