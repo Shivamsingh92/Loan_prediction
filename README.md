@@ -6,7 +6,7 @@ Dataset- The data has 614 rows and 13 columns.
 
 Dataset Description- In this project I applied various classification models such as Logistic Regression, Random Forest to detect consumers who will default the loan.                      Credit_history is highly correlated to the loan approval column and got a accuracy of 80% with RandomForest.
 
-Variable
+#Variable
 
 Description
 
