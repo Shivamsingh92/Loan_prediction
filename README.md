@@ -1,38 +1,30 @@
 # Loan_prediction
-#
-A Classification Problem which predicts if a loan will get approved or not.
 
-Dataset- The data has 614 rows and 13 columns.
+![loan_picture](https://www.shubhbank.com/wp-content/uploads/2021/11/apply-for-personal-loan.jpg)
 
-Dataset Description- In this project I applied various classification models such as Logistic Regression, Random Forest to detect consumers who will default the loan.                      Credit_history is highly correlated to the loan approval column and got a accuracy of 80% with RandomForest.
+# Introduction:
 
-#
-Variable
+In finance, a loan is the lending of money by one or more individuals, organizations, or other entities to other individuals, organizations etc. The recipient (i.e., the borrower) incurs a debt and is usually liable to pay interest on that debt until it is repaid as well as to repay the principal amount borrowed.
 
-Description:-
+# The major aim of this notebook is to predict which of the customers will have their loan approved.
 
-Loan_ID - Unique Loan ID
 
-Gender - Male/ Female
+Data Id 📋:
 
-Married- Applicant married (Y/N)
 
-Dependents - Number of dependents
+![](https://miro.medium.com/max/795/1*cAd_tqzgCWtCVMjEasWmpQ.png)
 
-Education - Applicant Education (Graduate/ Under Graduate)
 
-Self_Employed - Self employed (Y/N)
+Dataset- https://github.com/Shivamsingh92/Loan_prediction/blob/main/loan%20dataset.csv
 
-ApplicantIncome - Applicant income
 
-CoapplicantIncome - Coapplicant income
+# The main objective for this dataset:
+Using machine learning techniques to predict loan payments.
+target value: Loan_Status
+# Models we will use:
+Decision Tree, Random Forest, K-Nearest Neighbor, Logistic Regression, Naive Bayes Classifier
 
-LoanAmount - Loan amount in thousands
 
-Loan_Amount_Term - Term of loan in months
-
-Credit_History - credit history meets guidelines
-
-Property_Area - Urban/ Semi Urban/ Rural
-
-Loan_Status - Loan approved (Y/N)
+# Conclusion
+Credit_History is a very important variable because of its high correlation with Loan_Status therefor showind high Dependancy for the latter.
+The Random Forest algorithm is the most accurate: approximately 80%
